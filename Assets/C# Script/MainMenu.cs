@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public enum Menu
 {
     MainMenu,
-    Options, 
+    Options,
     Shop,
 }
 
@@ -33,6 +33,7 @@ public class MainMenu : MonoBehaviour
                 options.SetActive(false);
                 shop.SetActive(true);
                 break;
+
         }
     }
 
@@ -60,4 +61,5 @@ public class MainMenu : MonoBehaviour
         }
     }
 }
+
 
