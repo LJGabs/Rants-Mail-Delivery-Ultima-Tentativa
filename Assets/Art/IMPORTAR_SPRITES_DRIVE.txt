@@ -1,0 +1,13 @@
+IMPORTAÇÃO PENDENTE: sprites originais do Drive
+
+A pasta compartilhada pelo grupo (ID 11BhXy6BZur7VRKm9VXlTBepQzkZALskJ) não ficou visível para a conta Google Drive conectada (erro HTTP 404). Por isso não foi possível importar arquivos originais.
+
+Para substituir as artes provisórias quando tiver acesso aos sprites reais:
+1) Importe os PNG originais em Assets/Art ou subpasta.
+2) Se quiser manter a cena autogerada, substitua as imagens respetivas de mesmo nome:
+   Rant.png, Tera.png, WorkerAnt.png, SugarWhite.png, SugarBlue.png, Leaf.png, Log.png, Bush.png, Rock.png, Tongue.png, Ground.png.
+3) No Unity, configure Sprite (2D and UI), pixels por unidade, pivô e tamanho.
+4) Abra a cena e ajuste a escala visual e coliders no Inspector.
+5) Salve a cena e envie a pasta Assets + ProjectSettings + Packages ao GitHub.
+
+Os placeholders existentes são desenhos provisórios, adequados à Etapa 2 (apenas gameplay estrutural), mas NÃO representam os assets oficiais do grupo.
